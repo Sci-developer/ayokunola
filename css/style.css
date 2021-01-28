@@ -100,7 +100,7 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 
 .copy-heading{
     color: rgb(202, 99, 3);
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 
@@ -154,36 +154,118 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 }
 
 
-.animation{
-background-color: chocolate; margin: 5rem 0 ;
+.animationa{
+background-color: chocolate;
 
 
 }
 
-.imageanimea{
-    text-align: center;
-    animation:mymove 2s infinite;
-    animation-delay: 0s;
 
-}
 .imagea{
     padding: 2rem 1rem;height: auto;width: 32%;
-    animation:mymove 2s infinite;
+    animation:mymovea 5s infinite;
     animation-delay: 0s;
   
     
 }
 
 
-@keyframes mymove{
+
+
+
+.animationb{
+    background-color: chocolate; 
+    
+    
+    }
+    
+    
+    .imageb{
+        padding: 2rem 1rem;height: auto;width: 32%;
+        animation:mymovea 5s infinite;
+        animation-delay: 5s;
+      
+        
+    }
+
+
+
+    
+.animationc{
+    background-color: chocolate; 
+    
+    
+    }
+    
+    
+    .imagec{
+        padding: 2rem 1rem;height: auto;width: 32%;
+        animation:mymovea 5s infinite;
+        animation-delay: 10s;
+      
+        
+    }
+
+
+  .imageb{
+      height: auto;width: 100%;
+      object-fit: cover2;
+  }
+
+
+@keyframes mymovea{
 
 0%  {
-    background-color: tomato;
+  
+  opacity: 0;
+  
 }
+
+
 100%{
-  background-color: yellow;
+
+opacity: 1;
 }
+
 }
+
+
+@keyframes mymoveb{
+
+    0%  {
+      
+      opacity: 0;
+      
+    }
+    
+    
+    100%{
+    
+    opacity: 1;
+    }
+    
+    }
+
+
+
+    @keyframes mymovec{
+
+        0%  {
+          
+          opacity: 0;
+          
+        }
+        
+        
+        100%{
+        
+        opacity: 1;
+        }
+        
+        }
+
+
+
 
 
 
@@ -192,7 +274,7 @@ background-color: chocolate; margin: 5rem 0 ;
     padding: 4rem 4rem 5rem;
 }
 h2,h4{
-    color: white;text-align: center;
+    color: white;text-align: center;font-size: 2rem;
 }
 .aboutcopy{
     color: rgb(202, 99, 3); 
@@ -217,7 +299,7 @@ h5{
   
 }
 .whatsappdiv{
-    text-align: center;
+    text-align: center;font-size: 1rem;
 }
 
 .whatsapp:hover{
@@ -243,9 +325,36 @@ footer{
 
 
 
+@media (max-width:900px){
 
 
+    .link{
+        font-size: 2rem;
+        }
+        .copy-heading{
+            font-size: 4rem;
+        }
+        
+        .copy{
+            font-size: 2.3rem;
+        }
+        .contact-us{
+            font-size: 2rem;
+        }
 
+        h2,h4{
+            font-size: 4rem;
+        }
+        .aboutcopy{
+            font-size: 2.5rem;
+        }
+        h5{
+            font-size: 2.5rem;
+        }
+        .whatsappdiv{
+            font-size:2.5rem ;
+        }
+}
 
 
 
