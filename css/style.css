@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 0 4rem;
 
 }
 .navbar-items{
@@ -67,7 +68,7 @@ body{
 
     
     .toggle-button, .bar{
-        display: flex;margin-left: 90vw;bottom: 3vw;position: relative;
+        display: flex;margin-left: 90%;bottom: 3vw;position: relative;
        
     }
 .navbar-links{
@@ -100,7 +101,7 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 
 .copy-heading{
     color: rgb(202, 99, 3);
-    font-size: 2rem;
+    font-size: 250%;padding-bottom: 1rem 0 2rem;
 }
 
 
@@ -112,157 +113,38 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 }
 .copy{
     color: rgb(202, 99, 3);
-    line-height: 2;font-size:1.3rem;
+    line-height: 2;font-size:180%;
 }
 .sales-copy{
-    padding: 1rem 2rem 0 2rem;margin:  2rem 0 2rem ;position: relative;
+    padding: padding: 4% 4% ;
+    position: relative;
 }
 .contact-us{
     background-color:rgb(202, 99, 3);text-decoration: none;
-    color: white;border-radius: 3px;
-    padding: .5rem;
-   top: 1.5rem;position: relative;
+    color: white;border-radius: 5px;
+    padding:.7rem 1rem;font-size: 1.3rem;
+    margin: 3rem 0 0 ;position: relative;
+ 
+}
+
+
+.contact-space{
+    padding: 4% 0 0 0;
 }
 
 .contact-us:hover{
     color: white;
     background-color: tomato;
 }
-.watch-image{
-    padding: 3rem 0 0 0;height: 85%;
-   width: 60%;margin-left: 12vw;
-}
+
 
 .home{
-    padding: 0 3rem 0;
+    padding: 0 4% 0;
 }
 
 
 
 
-@media(max-width:1100px){
-    .copy-heading{
-        font-size: 1.3rem;
-    }
-    .sales-copy{
-        padding: 3rem 4rem 0 4rem;
-    }
-    .wristwatch{
-        text-align: center;
-    }
-
-}
-
-
-.animationa{
-background-color: chocolate;
-
-
-}
-
-
-.imagea{
-    padding: 2rem 1rem;height: auto;width: 32%;
-    animation:mymovea 5s infinite;
-    animation-delay: 0s;
-  
-    
-}
-
-
-
-
-
-.animationb{
-    background-color: chocolate; 
-    
-    
-    }
-    
-    
-    .imageb{
-        padding: 2rem 1rem;height: auto;width: 32%;
-        animation:mymovea 5s infinite;
-        animation-delay: 5s;
-      
-        
-    }
-
-
-
-    
-.animationc{
-    background-color: chocolate; 
-    
-    
-    }
-    
-    
-    .imagec{
-        padding: 2rem 1rem;height: auto;width: 32%;
-        animation:mymovea 5s infinite;
-        animation-delay: 10s;
-      
-        
-    }
-
-
-  .imageb{
-      height: auto;width: 100%;
-      object-fit: cover2;
-  }
-
-
-@keyframes mymovea{
-
-0%  {
-  
-  opacity: 0;
-  
-}
-
-
-100%{
-
-opacity: 1;
-}
-
-}
-
-
-@keyframes mymoveb{
-
-    0%  {
-      
-      opacity: 0;
-      
-    }
-    
-    
-    100%{
-    
-    opacity: 1;
-    }
-    
-    }
-
-
-
-    @keyframes mymovec{
-
-        0%  {
-          
-          opacity: 0;
-          
-        }
-        
-        
-        100%{
-        
-        opacity: 1;
-        }
-        
-        }
 
 
 
@@ -271,23 +153,27 @@ opacity: 1;
 
 
 .about{
-    padding: 4rem 4rem 5rem;
+    padding: 4% 4% ;
 }
 h2,h4{
-    color: white;text-align: center;font-size: 2rem;
+    color: white;align-self: auto; font-size: 320%;
+}
+h2{
+    padding: 3% 0 0 ;
 }
 .aboutcopy{
     color: rgb(202, 99, 3); 
-    line-height: 2;font-size:1.3rem;
+    line-height: 2;font-size:180%;
 }
 
 
 .stressfree{
-    padding: 3rem 4rem;
+    padding: 3% 4% 4%;text-align: center;
 }
 h5{
     color: rgb(202, 99, 3); text-align: center;
-    padding: 2rem 0 2rem 2rem;
+   padding: 4% 0 0 0 ;
+    font-size:180%;
 }
 
 
@@ -295,11 +181,11 @@ h5{
     background-color: darkgreen;
     color: white;text-decoration: none;
     text-align: center;padding: .5rem 1rem;
-    border-radius: .3rem;
+    border-radius: .3rem;font-size: 1.3rem;
   
 }
 .whatsappdiv{
-    text-align: center;font-size: 1rem;
+    text-align: center;padding-top: 5%;
 }
 
 .whatsapp:hover{
@@ -310,7 +196,7 @@ h5{
 
 footer{
     color: white;font-size: 1.1rem;text-align: center;
-    padding: 2rem 0 0 ;
+    padding: 5rem 0 0 ;
 }
 
 
@@ -325,36 +211,6 @@ footer{
 
 
 
-@media (max-width:900px){
-
-
-    .link{
-        font-size: 2rem;
-        }
-        .copy-heading{
-            font-size: 4rem;
-        }
-        
-        .copy{
-            font-size: 2.3rem;
-        }
-        .contact-us{
-            font-size: 2rem;
-        }
-
-        h2,h4{
-            font-size: 4rem;
-        }
-        .aboutcopy{
-            font-size: 2.5rem;
-        }
-        h5{
-            font-size: 2.5rem;
-        }
-        .whatsappdiv{
-            font-size:2.5rem ;
-        }
-}
 
 
 
