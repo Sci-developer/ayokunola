@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 4rem;
+    padding: 0 0 4%;
 
 }
 .navbar-items{
@@ -101,7 +101,7 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 
 .copy-heading{
     color: rgb(202, 99, 3);
-    font-size: 250%;padding-bottom: 1rem 0 2rem;
+    font-size: 230%;padding-bottom: 1rem 0 2rem;
 }
 
 
@@ -113,23 +113,23 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 }
 .copy{
     color: rgb(202, 99, 3);
-    line-height: 2;font-size:180%;
+    line-height: 2.5;font-size:160%;
 }
-.sales-copy{
-    padding: padding: 4% 4% ;
+#sales-copy{
+    padding: 0 4% 0;
     position: relative;
 }
 .contact-us{
     background-color:rgb(202, 99, 3);text-decoration: none;
     color: white;border-radius: 5px;
-    padding:.7rem 1rem;font-size: 1.3rem;
+    padding:.7rem 1rem;font-size: 100%;
     margin: 3rem 0 0 ;position: relative;
  
 }
 
 
 .contact-space{
-    padding: 4% 0 0 0;
+    padding: 4% 0 4% 0;
 }
 
 .contact-us:hover{
@@ -138,13 +138,116 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 }
 
 
-.home{
+#home{
     padding: 0 4% 0;
 }
 
 
 
 
+/*display styling*/
+
+
+
+@media  (max-width :700px){
+
+
+    .imgadis{
+        padding: 7% 7% 3%;
+        margin: 0 0 7% 0;
+    }
+    
+    .imgbdis{
+        padding: 7% 7% 3%;
+        margin: 0 0 7% 0;
+    }
+    
+    .imgcdis{
+        padding: 7% 7% 3%;
+        margin: 0 0 7% 0;
+    }
+    
+    .imgddis{
+        padding: 0rem 7%   0;
+        margin: 0 0 7% 0;
+        position: relative;
+      
+    }
+    
+    .imgedis{
+        padding: 0rem 7%   0;
+        margin: 0 0 7% 0;
+        position: relative;
+    }
+    
+    .imgfdis{
+        padding: 0rem 7%   0;
+        margin: 0 0 7% 0;
+        position: relative;
+    }
+    
+    .imga{
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+    }
+    .imgb{
+        width: 100%;
+        height: auto;
+    }
+    .imgc{
+        width: 100%;
+        height: 60%;
+    }
+    .imgd{
+        width: 100%;
+        height: 80%;
+        margin: 0 0 7% 0;
+        position: relative;
+     
+      
+     
+    }
+    .imge{
+        width: 100%;
+        height: 60%;
+    }
+    .imgf{
+        width: 100%;
+        height: 110%;
+    }
+}
+
+
+
+
+.imga{
+    width: 100%;
+    height: auto;
+}
+.imgb{
+    width: 100%;
+    height: auto;
+}
+.imgc{
+    width: 100%;
+    height: 60%;
+}
+.imgd{
+    width: 100%;
+    height: 80%;
+ 
+   position: relative;
+ 
+}
+.imge{
+    width: 100%;
+    height: 80%;
+}
+.imgf{
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -152,28 +255,61 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 
 
 
-.about{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about{
     padding: 4% 4% ;
 }
 h2,h4{
-    color: white;align-self: auto; font-size: 320%;
+    color: white;align-self: auto; font-size: 290%;
 }
 h2{
-    padding: 3% 0 0 ;
+    padding: 2% 0 0 ;
+}
+
+.what{
+    padding: 5% 0 0 0 ;
 }
 .aboutcopy{
     color: rgb(202, 99, 3); 
-    line-height: 2;font-size:180%;
+    line-height: 2;font-size:160%;
 }
 
 
-.stressfree{
+#stressfree{
     padding: 3% 4% 4%;text-align: center;
 }
 h5{
     color: rgb(202, 99, 3); text-align: center;
-   padding: 4% 0 0 0 ;
-    font-size:180%;
+   padding: 2% 0 0 0 ;
+    font-size:160%;
 }
 
 
@@ -185,7 +321,7 @@ h5{
   
 }
 .whatsappdiv{
-    text-align: center;padding-top: 5%;
+    text-align: center;padding-top: 7%;
 }
 
 .whatsapp:hover{
@@ -196,7 +332,7 @@ h5{
 
 footer{
     color: white;font-size: 1.1rem;text-align: center;
-    padding: 5rem 0 0 ;
+    padding: 3% 0 1% ;
 }
 
 
