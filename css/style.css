@@ -149,74 +149,100 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 
 
 
-@media  (max-width :700px){
+@media  (max-width :765px){
 
 
     .imgadis{
-        padding: 7% 7% 3%;
-        margin: 0 0 7% 0;
+      display: none;
     }
     
     .imgbdis{
-        padding: 7% 7% 3%;
-        margin: 0 0 7% 0;
+        display: none;
     }
     
     .imgcdis{
-        padding: 7% 7% 3%;
-        margin: 0 0 7% 0;
+        display: none;
     }
     
     .imgddis{
-        padding: 0rem 7%   0;
-        margin: 0 0 7% 0;
-        position: relative;
-      
+        display: none;
+      text-align: center;
     }
     
     .imgedis{
-        padding: 0rem 7%   0;
-        margin: 0 0 7% 0;
-        position: relative;
+        display: none;
     }
     
     .imgfdis{
-        padding: 0rem 7%   0;
-        margin: 0 0 7% 0;
-        position: relative;
+        display: none;
     }
     
     .imga{
         width: 100%;
         height: auto;
-        padding-top: 5%;
+        padding-bottom: 30%;
+        display: none;
+     
     }
     .imgb{
         width: 100%;
         height: auto;
+        padding-bottom: 30%; display: none;
     }
     .imgc{
         width: 100%;
-        height: 60%;
+        height: 100%; display: none;
     }
     .imgd{
         width: 100%;
-        height: 80%;
-        margin: 0 0 7% 0;
-        position: relative;
+        height: 100%;
+        display: none;
      
       
      
     }
     .imge{
         width: 100%;
-        height: 60%;
+        height: 100%;
+        display: none;
     }
     .imgf{
         width: 100%;
-        height: 110%;
+        height: 100%;
+        display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+.images{
+    max-width: 100%;
+    height: auto;
+    padding:5% 4% 0 4%;
+}
+.nopad{
+    padding-top: 0;
+}
+
+@media (min-width:765px){
+    .images{
+        display: none;
+    }
+}
+
+
+
+
+
+
 
 
 
@@ -236,13 +262,15 @@ flex-direction: column;align-items: flex-start;justify-content: space-between;
 .imgd{
     width: 100%;
     height: 80%;
- 
+  bottom: 17%;
    position: relative;
  
 }
 .imge{
     width: 100%;
     height: 80%;
+    bottom: 17%;
+    position: relative;
 }
 .imgf{
     width: 100%;
